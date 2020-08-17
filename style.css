@@ -1,0 +1,46 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:boder-box;
+}
+
+#clockContainer{
+    height: 40vw;
+    width: 40vw;
+    background:  url('./perfect.jpg')no-repeat center center/cover;
+    margin: auto;
+    position: relative;
+
+    
+}
+
+
+#hour,#minute,#second{
+    position: absolute;
+    background-color: black;
+    border-radius: 30px;
+    transform-origin: bottom;
+}
+
+#hour{
+    height: 25%;
+    width: 2.5%;
+    left: 48.4%;
+    top: 24%;
+ 
+}
+
+#minute{
+    height: 29%;
+    width: 2%;
+    left: 48.4%;
+    top: 21%;
+   
+}
+
+#second{
+    height: 31%;
+    width: 1%;
+    left: 48.9%;
+    top: 18%;
+}
